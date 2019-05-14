@@ -1,0 +1,97 @@
+header{
+     background-color: white;
+     padding: 40px;
+     text-align: center;
+     font-family: arial;
+     font-size: 25px;
+     margin: 0
+     padding: 0px;
+
+}
+header img{
+  border-radius: 300px
+
+
+}
+/*<header>
+  <dev class= "wraper">
+            <img src="PIC.jpg" alt="MY PHOTO" width=600px>
+            <h1>MD SAKIB RAHMAN</h1>
+</header>*/
+.content{
+  padding: 20px;
+  text-align: center;
+
+}
+ul{
+  padding: 0;
+  margin; 0;
+}
+footer{
+  text-align: center;
+  background-color: #C0C0C0;
+}
+footer ul li{
+  display: inline;
+
+}
+main ul li{
+  padding-left: 30px;
+  color: #F8F8F8;
+  text-align: left;
+}
+main p{
+  padding-left: 30px;
+  color: #F8F8F8;
+  text-align: left;
+}
+h2{
+  color: white;
+}
+header ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+ padding-left: 240px;
+padding-bottom: 20px;
+
+
+}
+header ul li{
+  float: left;
+  padding: 5px;
+  margin: 0px;
+  width: 200px;
+
+
+  margin: 1px;
+  font-size:20px;
+  background-color: black;
+  opacity: 0.8;
+
+
+}
+header ul li a{
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+header ul li a:hover{
+  background-color: blue;
+  opacity: 20;
+  padding:  5px;
+  opacity: 0.8;
+}
+@media screen and (max width;399px){
+  header{
+    width: 100%;
+  }
+    left-column{ 70%;
+    }
+    right-columns:{ 30%;
+    }
+
+}
+header img{
+  width=400px
+}
